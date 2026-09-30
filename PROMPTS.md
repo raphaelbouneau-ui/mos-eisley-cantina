@@ -18,3 +18,5 @@ Si tu ajoutes des liens, donne-leur un focus-visible clairement visible. Ne modi
 - Ajout de `hover:-translate-y-1` aux trois cartes pour obtenir le mouvement demandé au survol.
 - Agrandissement des trois boîtes d’icône avec `size-12`, ajout de `rounded-xl` et d’un contour `ring-1`.
 - Suppression des classes répétées sur la deuxième carte.
+
+La navigation affiche désormais uniquement les liens Features et Live music. Une section Live music a été ajoutée après Features pour donner une cible au lien correspondant. Le défilement doux respecte la préférence de réduction des animations. La première insertion de la section dans le header a été annulée, puis corrig
