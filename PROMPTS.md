@@ -19,4 +19,6 @@ Si tu ajoutes des liens, donne-leur un focus-visible clairement visible. Ne modi
 - Agrandissement des trois boîtes d’icône avec `size-12`, ajout de `rounded-xl` et d’un contour `ring-1`.
 - Suppression des classes répétées sur la deuxième carte.
 
-La navigation affiche désormais uniquement les liens Features et Live music. Une section Live music a été ajoutée après Features pour donner une cible au lien correspondant. Le défilement doux respecte la préférence de réduction des animations. La première insertion de la section dans le header a été annulée, puis corrig
+La navigation affiche désormais uniquement les liens Features et Live music. Une section Live music a été ajoutée après Features pour donner une cible au lien correspondant. Le défilement doux respecte la préférence de réduction des animations. La première insertion de la section dans le header a été annulée, puis corrige
+
+Ajout manuel de la classe Tailwind scroll-mt-32 aux sections Features et Live music afin de réserver une marge sous la navigation fixe lors des déplacements par liens d’ancrage. Vérification dans le navigateur : les deux liens ciblent les bonnes sections et les titres sont visibles.
